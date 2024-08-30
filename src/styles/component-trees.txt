@@ -1,0 +1,12 @@
+
+
+
+
+
+Component hierarchy as a tree
+    <App>
+        <Products>
+            <Product>
+                <SimilarProducts>
+                <Comments>
+                 ....

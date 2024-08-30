@@ -1,0 +1,40 @@
+
+
+
+
+- azimiac@gmail.com
+    subject: Next_10
+    resume/goal
+
+
+- Front-end Path
+    HTML
+    CSS
+    JS
+        React
+            React Framework
+                NextJS
+
+
+    Why NextJS ???
+
+    Single Page Application 
+        => a html page as a container
+        => default => client side rendering (CSR)
+            performance problem
+                web vital
+                    FCP, LCP , FID, ...
+        => NOT PRODUCTION READY
+            SEO
+            Server Side Rendering (SSR)
+            Performance
+            Image Optimizing
+            Data Fetching
+            Routing
+            ...
+
+                => Node JS
+                    => NEXT JS
+
+
+                Gatsby

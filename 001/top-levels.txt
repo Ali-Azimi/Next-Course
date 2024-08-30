@@ -1,0 +1,19 @@
+
+
+
+Top Level Directories
+    pages
+        File Based Routing
+
+
+Top Level File
+    next.config
+    package.json
+    middleware
+    ...
+
+
+
+
+    Next Routing
+        

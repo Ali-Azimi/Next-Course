@@ -1,0 +1,17 @@
+
+
+
+
+document
+    head
+        meta
+        title
+        link
+        
+    body
+        main
+            section
+                ul 
+                    li 
+                    li 
+                    li
