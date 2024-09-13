@@ -26,3 +26,9 @@ header a {
 .card img {
   width: 200px;
 }
+
+
+.product-header {
+  background-color: magenta !important;
+  color: black;
+}
