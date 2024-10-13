@@ -1,0 +1,28 @@
+
+
+
+
+
+Rendering
+    WHERE ??
+        Server
+            getServerSideProps
+            getStaticProps
+        Client
+            hydration
+                bundle => js => script
+
+
+
+    WHEN ??
+        per request
+            getServerSideProps
+        build time
+            getStaticProps
+    
+
+
+
+
+    SSG => static site generator
+    SSR => server side rendering => dynamic rendering

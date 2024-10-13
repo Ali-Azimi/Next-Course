@@ -1,0 +1,30 @@
+
+
+
+
+
+
+Workflow
+    task => feature => qa 
+            env => stage stage.harchi.com [stage] / [production]
+
+            => test passed 
+                => release
+
+                => production 
+                    => monitoring
+
+                    => log 
+                        => sentry
+                        => kibana
+
+
+                            => discovery bug 
+
+                            => occur
+                                => debug
+                                    => rebuild
+                                        => 1h
+
+        100$
+        0$

@@ -1,0 +1,16 @@
+
+
+
+
+dynamic route
+    /posts/1
+    /posts/2
+    ...
+    /posts/100
+
+    SSG (getStaticProps)
+
+        => build time 
+        => getStaticPaths()
+            => paths (array)
+                => [{params: {}}]

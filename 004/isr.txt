@@ -1,0 +1,26 @@
+
+
+
+
+App
+    => 50 page SSG 
+    => user A 
+        => request /51
+            => ssr* => rendering 
+                => add 51 to ssg list (50)
+    
+    => user B => request /51
+            => ssg
+
+    => user C => request /51
+            => ssg 
+
+
+
+
+
+
+ SSR => fetch => UI /static /dynamic
+   1 => wait unit all page server render => client 
+   2 => static parts => client 
+                            => after fetch => dynamic part

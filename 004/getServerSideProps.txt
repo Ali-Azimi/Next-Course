@@ -1,0 +1,17 @@
+
+
+
+getServerSideProps, getStaticProps
+
+
+    parameter
+        Context
+
+    return values 
+        {
+            props,
+            notFound,
+            redirect,
+            revalidate*
+        }
+

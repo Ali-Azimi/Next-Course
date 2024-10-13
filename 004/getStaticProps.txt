@@ -1,0 +1,19 @@
+
+
+
+
+getStaticPaths 
+    run on server
+    run on page 
+    return values 
+        {
+            path: [{params: {}}],
+            fallback: false | true | 'blocking'
+        }
+
+
+        // falback 
+            false       => 404 page not generate on build time 
+            true        => fetch at first request and added to ssg list with partial rendering 
+                render static parts and update dynamic parts at next
+            'blocking'  => like true but wait until all page (static and dynamic) rendered

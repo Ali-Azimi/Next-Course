@@ -1,0 +1,65 @@
+
+
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 1rem;
+}
+
+
+header a {
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+  margin: 1rem;
+}
+
+
+
+.card {
+  background-color: #ddd;
+  border: gray;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+
+.product-header {
+  background-color: magenta !important;
+  color: black;
+}
+
+
+.post {
+  background-color: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
+
+
+
+.category {
+  background-color: #ddd;
+  padding: 1rem 2rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin: 1rem;
+}
+
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,9 @@
+
+
+- next api (req => body , queryparam)
+- AbortController, signal 
+- useEffect cleanup 
+- race condition 
+
+
+- error logging system

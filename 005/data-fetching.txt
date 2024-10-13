@@ -1,0 +1,12 @@
+
+
+Rendering, Data Fetching
+
+    SSR
+        server, per request
+    SSG
+        server,  build time
+    ISR
+        server, on demand
+    CLS
+        client, on demand

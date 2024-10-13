@@ -1,0 +1,13 @@
+
+
+
+request, response
+    => header
+        authorization
+        content-type
+        ...
+    => body
+
+        => payload
+            => queryParam
+            => bodyParam

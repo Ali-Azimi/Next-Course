@@ -1,0 +1,16 @@
+
+
+
+ComponentA
+    logic*
+        use
+    render
+ComponentB 
+    logic*
+        use
+    render
+
+
+
+    => custom hook 
+        different component, same logic

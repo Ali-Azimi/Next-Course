@@ -1,0 +1,24 @@
+
+
+
+
+
+SSR
+    server side rendering
+SSG
+    static site generation
+ISR
+    Incremental Static Regeneration
+CSR
+    Client Side Rendering
+
+
+
+
+    User-Specific
+    Public-Cached
+
+
+    ISR 
+        revalidate on time period => 1h / 1d
+        revalidate on demand
