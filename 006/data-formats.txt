@@ -1,0 +1,28 @@
+
+
+
+
+
+Choosing Right Data Format 
+
+    FILE => txt, md, csv, json, yaml
+    DBMS => sql
+
+    - human readability
+
+    - software applicant
+
+
+
+         - path
+         - date
+         - user
+         - video
+         - http
+            method
+            url
+            ...
+
+
+
+    

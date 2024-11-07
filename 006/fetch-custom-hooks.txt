@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+useeffect
+    fetch
+        loading
+            data 
+                parse
+                setState
+            error
+
+
+
+        DRY

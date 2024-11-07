@@ -1,0 +1,8 @@
+
+
+
+cache headers
+    cached
+    no-cache 
+    no-store
+    stale-while-revalidate

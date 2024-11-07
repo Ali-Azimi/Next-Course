@@ -1,0 +1,68 @@
+
+
+
+
+
+strategy A => Client
+    user request => loading (api get data) => show data 
+
+
+strategy B => server 
+    user request => api get data => show data
+
+
+
+
+    caching data 
+        => user request 
+        => data 
+        => store data 
+            => Server 
+                DISK            => 1TB  => permanent     
+                Memory (RAM)    => 8GB  => temporary
+                
+            => Client 
+                browser Storage, session, local, indexedDB, ...
+
+                => Control              (server)
+                => data sensitive       (server)
+                => accessibly          
+
+            [{id: 1, title: folan}]
+            Validation
+            (event)
+                => interval
+                => by demand
+                => automate based on data
+                => user events
+            Revalidate
+
+
+
+
+            request 1 => get data 
+                => cache
+            request 2 => get data 
+                => comparison 
+                    => ! cache
+                    => new data
+
+
+
+                
+
+
+
+
+                    Stale-While-Revalidate
+
+                request 1 => get data => cache
+                request 2 => show cache data
+                    parallel (get data)
+                    if(comparison)
+                        => ! 
+                        => if change => new data
+
+
+
+                        SWR is a strategy to first return the data from cache (stale), then send the fetch request (revalidate), and finally come with the up-to-date data.

@@ -1,0 +1,11 @@
+
+
+
+- sentry 
+    => docs
+    => tutorial
+
+https://www.datadoghq.com/product/error-tracking/
+
+- react query
+https://tanstack.com/query/latest/docs/framework/react/overview

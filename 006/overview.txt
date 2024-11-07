@@ -1,0 +1,20 @@
+
+
+
+
+
+- rendering methods
+    getSeverSideProps
+    getStaticProps
+    getStaticPaths
+    ....
+
+
+- rendering strategies
+    SSR 
+    SSG
+    ISR
+    CSR
+
+        fetch data
+            handle error

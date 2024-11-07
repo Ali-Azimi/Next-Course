@@ -1,34 +1,28 @@
+import useFetch from '@/shared/hooks/useFetch';
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 
 const ProductById = () => {
   const router = useRouter();
 
-  const [product, setProduct] = useState({});
+  const url = router.query?.id
+    ? `https://fakestoreapi.com/products/${router.query.id}`
+    : null;
+  console.log({ url });
+  const { data, isLoading, error } = useFetch(url);
 
-  useEffect(() => {
-    if (router.query.id) {
-      getProducts();
-    }
-  }, [router.query]);
+  console.log({ data, isLoading, error });
 
-  const getProducts = () => {
-    fetch(`https://fakestoreapi.com/products/${router.query.id}`)
-      .then((res) => res.json())
-      .then((json) => setProduct(json))
-      .catch((error) => {
-        // handle error
-        // logged error in loggingSystem
-        console.log(error);
-      });
-  };
+  if (isLoading) return <h1>Loading...</h1>;
+
+  if (!data) return <h1>DATA NOT FOUND</h1>;
 
   return (
     <div>
-      <h1>{product.title}</h1>
-      <img src={product.image} />
-      <button>{product.category}</button>
-      <p>{product.description}</p>
+      <h1>{data.title}</h1>
+      <img src={data.image} />
+      <button>{data.category}</button>
+      <p>{data.description}</p>
     </div>
   );
 };
