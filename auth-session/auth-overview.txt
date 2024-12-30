@@ -1,0 +1,36 @@
+
+
+
+Authentication
+
+    API 
+        anonymous/public
+        protected
+
+    Front-end Routes
+        public 
+        protected
+
+
+
+        authentication mechanism
+            HTTP
+                State-less
+                a token 
+                    => string
+
+
+                header
+                    authorization
+
+
+                user => login => get token 
+                    front => store token
+
+
+
+                    JWT
+
+                        header 
+                        payload
+                        signature
